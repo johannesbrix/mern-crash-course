@@ -1,0 +1,58 @@
+# template from gemini
+
+# Node.js and npm
+node_modules
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Build output
+build
+dist
+client/build
+server/build
+
+# Dependencies cache
+client/node_modules
+server/node_modules
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Optional: Ignore bundled dependencies (if you bundle)
+# bundle/
+
+# Optional: Ignore coverage reports
+# coverage/
+
+# Optional: Ignore temporary files
+# tmp/
+# *.swp
+# *.swo
+# .sass-cache
+
+# Optional: Specific files you don't want to track
+# config/local.js
+# data.json
